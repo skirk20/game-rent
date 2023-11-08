@@ -1,0 +1,38 @@
+th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.gora{
+    text-align: center;
+    margin: 3em 0;
+    width: 100%;
+}
+p{
+    max-width:min-content;
+    margin: 0; 
+    padding: 0;
+}
+table{
+    display: table;
+    width: 100%;
+    margin: 0 auto;
+}
+.form-control{
+    padding: 0;
+}
+@media  screen and (max-width: 620px) {
+    th:first-child, td:first-child{
+        display: none;
+    }
+    .gra{
+        max-width: 220px;
+    }
+}
+@media  screen and (max-width: 460px) {
+    th:first-child, td:first-child{
+        display: none;
+    }
+    .gra{
+        max-width: 170px;
+    }
+}
